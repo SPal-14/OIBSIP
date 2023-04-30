@@ -1,0 +1,52 @@
+label, h1{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #19198e;
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+select, form, input[type="number"] {
+    display: block;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1addf3;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(7, 210, 250);
+    color: white;
+    cursor: pointer;
+}
+#result {
+    display: block;
+    width: fit-content;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #1af350;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #dad5dc;
+}
